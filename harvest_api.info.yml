@@ -1,0 +1,7 @@
+name: 'Harvest API'
+type: module
+description: 'Harvest API client and migrate source plugin for entity import'
+core: 8.x
+package: 'Migrate'
+dependencies:
+  - drupal:entity_import  

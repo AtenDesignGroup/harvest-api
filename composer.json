@@ -1,0 +1,22 @@
+{
+    "name": "harvest_api",
+    "type": "drupal-module",
+    "description": "Harvest API client and migrate source plugin for entity import",
+    "keywords": [
+    ],
+    "authors": [
+        {
+            "name": "Justin Toupin",
+            "email": "justin@aten.io"
+        }
+    ],    
+    "homepage": "https://github.com/AtenDesignGroup/harvest-api",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/AtenDesignGroup/harvest-api/issues",
+        "source": "https://github.com/AtenDesignGroup/harvest-api"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6"
+    }
+}

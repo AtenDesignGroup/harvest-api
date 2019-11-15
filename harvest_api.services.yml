@@ -1,0 +1,4 @@
+services:
+  harvest_api.client:
+    class: \Drupal\harvest_api\HarvestApiClient
+    arguments: ['@http_client']
